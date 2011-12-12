@@ -1,0 +1,24 @@
+NAME
+    Format::CN - Format CN&EN pages for typesetting
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+        use Format::CN 'f';
+
+        f(content => '�国Perl协会，http://www.perlchina.org', output => 'log');
+        f(file => 'content.txt', encoding => 'utf8', output => \$string);
+
+DESCRIPTION
+    本模块用来� �式化�英混排之间的空� �
+
+AUTHOR
+    woosley.xu <woosley.xu@gmail.com>
+
+COPYRIGHT & LICENSE
+    This software is copyright (c) 2011 by woosley.xu.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
